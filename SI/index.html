@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIU</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 100px;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 50px;
+  text-decoration: none;
+  
+}
+li a{
+    color: #532557;
+    text-decoration: none;
+   
+}
+li img{
+    width:50px;
+    padding-right:500px;
+    padding-top: none;
+}
+
+    </style>
+</head>
+<body>
+
+    <ul>
+        
+        <li>Contact</li>
+        <li>About Us</li>
+        
+        <li> <a href="issues.html">  Reported Issues </a></li>
+        <li><a href="index.html"><img src="traffic.png" alt=""></a></li>
+        
+    </ul>
+
+    <div class="container">
+        
+        <div class="text">
+          <h1>EnviroReport</h1>
+          <p>Welcome to EnviroReport, a platform where you can report any environmental issues you come across in your community. From pollution and waste problems to concerns about air or water quality, our website is here to help you raise awareness and take action. </p>
+
+           <p> Our user-friendly interface allows you to easily submit reports, share photos, and connect with others who are passionate about protecting the environment. Together, we can make a difference and create a cleaner, healthier world for everyone."</p>
+        </div>
+
+        <div class="image">
+            <img src="Asset 1.png">
+          </div>
+      </div>
+    
+      <h3>Report a Problem</h3>
+
+      <div>
+      <form action="" id="contactForm">
+        <div class="aaa">
+        <input type="radio" name="problem" id="problem" value="Abandoned vehicles">Abandoned vehicles <br>
+        <input type="radio" name="problem" id="problem" value="Bus stops">Bus stops<br>
+        <input type="radio" name="problem" id="problem" value="Car parking">Car parking<br>
+        <input type="radio" name="problem" id="problem" value="Dog fouling">Dog fouling<br>
+        <input type="radio" name="problem" id="problem" value="Flyposting">Flyposting<br>
+        <input type="radio" name="problem" id="problem" value="Flytipping">Flytipping<br>
+        <input type="radio" name="problem" id="problem" value="Graffiti">Graffiti<br>
+        <input type="radio" name="problem" id="problem" value="Parks/landscapes">Parks/landscapes<br>
+        <input type="radio" name="problem" id="problem" value="Pavements/footpaths">Pavements/footpaths<br>
+        <input type="radio" name="problem" id="problem" value="Potholes">Potholes<br>
+        <input type="radio" name="problem" id="problem" value="Public toilets">Public toilets<br>
+        <input type="radio" name="problem" id="problem" value="Road traffic signs">Road traffic signs<br>
+        <input type="radio" name="problem" id="problem" value="Roads/highways">Roads/highways<br>
+        <input type="radio" name="problem" id="problem" value="Rubbish (refuse and recycling)">Rubbish (refuse and recycling)<br>
+        <input type="radio" name="problem" id="problem" value="Street cleaning">Street cleaning<br>
+        <input type="radio" name="problem" id="problem" value="Street lighting">Street lighting<br>
+        <input type="radio" name="problem" id="problem" value="Street nameplates">Street nameplates<br>
+        <input type="radio" name="problem" id="problem" value="Traffic lights">Traffic lights<br>
+        <input type="radio" name="problem" id="problem" value="Trees">Trees<br>
+        <input type="radio" name="problem" id="problem" value="Other">Other<br> 
+    </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184011.21359289528!2d18.242907937050095!3d43.893637740498185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758cbb1ed719bd1%3A0x562ecda6de87b33e!2sSarajevo!5e0!3m2!1sen!2sba!4v1683239429171!5m2!1sen!2sba" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+    <div class="eeee">
+        <h3> Adress </h3>
+        <input type="text" name="Adress" id="adress">
+        <h3> Short description of the problem  </h3>
+        <input type="text" name="title" id="title">
+        <h3>Explain What’s Wrong</h3>
+        <textarea name="description" id="description" cols="60" rows="10"></textarea>
+        <h3>Personal information</h3>
+
+        <h4>Name</h6>
+        <input type="text" name="name" id="name">
+        <h4>Surname</h6>
+        <input type="text" name="surname" id="surname">
+        <h4>E-mail or phone number</h6>
+        <input type="text" name="contact" id="contact">
+        <input type="submit" value="Submit"> 
+    </div>
+
+        
+      </form>
+
+<br><br><br>
+      <footer>
+        <p>Author: Salem, Benjo, Rasumovic<br>
+        <a href="fbtb_fbtb@proton.me">fbtb_fbtb@proton.me</a></p>
+      </footer>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
